@@ -1,6 +1,5 @@
 import http from 'k6/http';
-import { Trend } from 'k6/metrics';
-import { check, group, sleep } from 'k6' ;
+import { check, sleep } from 'k6' ;
 
 /**
  * Load Testing is a type of Performance Testing used to determine a system's behavior under both normal and peak conditions.
